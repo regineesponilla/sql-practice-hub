@@ -1354,7 +1354,7 @@ function renderHome() {
   // wrong log
   const wlEl = document.getElementById('wrong-log-home');
   if (!wlog.length) {
-    wlEl.innerHTML = '<div class="lb-empty">-- No wrong answers recorded yet. Great start!</div>';
+   wlEl.innerHTML = '<div class="lb-empty">-- No wrong answers recorded yet. Great start! | Built by Regine Esponilla</div>';
   } else {
     const recent = [...wlog].reverse().slice(0, 15);
     let html = '<div class="wrong-log-section"><div class="wrong-log-title">⚠ Recent Wrong Answers (last 15)</div>';
